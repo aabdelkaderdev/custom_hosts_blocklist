@@ -1,0 +1,73 @@
+name: Generate SearXNG Host Blocklist
+
+on:
+  schedule:
+    # Runs at minute 0 past every 6th hour
+    - cron: '0 */6 * * *'
+  workflow_dispatch: # Allows you to run the workflow manually from the Actions tab
+
+jobs:
+  update-blocklist:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install pyyaml requests
+
+      - name: Fetch YAML and Convert to Blocklist
+        run: |
+          cat << 'EOF' > convert.py
+          import yaml
+          import requests
+          from urllib.parse import urlparse
+
+          URL = "https://raw.githubusercontent.com/searxng/searx-instances/refs/heads/master/searxinstances/instances.yml"
+
+          def generate_blocklist():
+              response = requests.get(URL)
+              response.raise_for_status()
+              data = yaml.safe_load(response.text)
+              
+              # SearXNG instances.yml typically nests URLs under the 'instances' key
+              instances = data.get('instances', data)
+              
+              blocklist = []
+              for url in instances.keys():
+                  if url.startswith('http'):
+                      # Extract the domain name from the URL
+                      domain = urlparse(url).netloc.split(':')[0] 
+                      blocklist.append(f"0.0.0.0 {domain}")
+              
+              # Write to a hosts file format
+              with open('searxng_hosts', 'w') as f:
+                  f.write("# Auto-generated SearXNG Instances Blocklist\n")
+                  f.write("\n".join(sorted(set(blocklist))) + "\n")
+
+          if __name__ == "__main__":
+              generate_blocklist()
+          EOF
+          
+          python convert.py
+
+      - name: Commit and push if changed
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          
+          git add searxng_hosts
+          
+          # Check if there are any changes to commit
+          if ! git diff --staged --quiet; then
+            git commit -m "Auto-update SearXNG blocklist"
+            git push
+          else
+            echo "No changes detected. Skipping commit."
+          fi
