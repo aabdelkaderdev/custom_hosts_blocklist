@@ -11,7 +11,6 @@
 0.0.0.0 paulgo.io
 0.0.0.0 priv.au
 0.0.0.0 search.2b9t.xyz
-0.0.0.0 search.abohiccups.com
 0.0.0.0 search.anoni.net
 0.0.0.0 search.bladerunn.in
 0.0.0.0 search.catboy.house
@@ -58,6 +57,7 @@
 0.0.0.0 searx.rhscz.eu
 0.0.0.0 searx.ro
 0.0.0.0 searx.sev.monster
+0.0.0.0 searx.thefloatinglab.world
 0.0.0.0 searx.tiekoetter.com
 0.0.0.0 searx.tsmdt.de
 0.0.0.0 searx.tuxcloud.net
@@ -67,6 +67,7 @@
 0.0.0.0 searxng.fishfvch.com
 0.0.0.0 searxng.gdebest.net
 0.0.0.0 searxng.gr
+0.0.0.0 searxng.moonshadow.dev
 0.0.0.0 searxng.shreven.org
 0.0.0.0 searxng.site
 0.0.0.0 searxng.website
