@@ -31,6 +31,47 @@
 0.0.0.0 proxy.hidester.one
 0.0.0.0 hidester.one
 0.0.0.0 onlinevpn.app
+# Block AliExpress Global and Language Subdomains
+0.0.0.0 aliexpress.com
+0.0.0.0 www.aliexpress.com
+0.0.0.0 m.aliexpress.com
+0.0.0.0 login.aliexpress.com
+0.0.0.0 best.aliexpress.com
+0.0.0.0 ar.aliexpress.com
+0.0.0.0 br.aliexpress.com
+0.0.0.0 de.aliexpress.com
+0.0.0.0 es.aliexpress.com
+0.0.0.0 fr.aliexpress.com
+0.0.0.0 he.aliexpress.com
+0.0.0.0 id.aliexpress.com
+0.0.0.0 it.aliexpress.com
+0.0.0.0 ja.aliexpress.com
+0.0.0.0 ko.aliexpress.com
+0.0.0.0 nl.aliexpress.com
+0.0.0.0 pl.aliexpress.com
+0.0.0.0 pt.aliexpress.com
+0.0.0.0 ru.aliexpress.com
+0.0.0.0 th.aliexpress.com
+0.0.0.0 tr.aliexpress.com
+0.0.0.0 vi.aliexpress.com
+
+# Block AliExpress Regional Domains (ccTLDs)
+0.0.0.0 aliexpress.ae
+0.0.0.0 www.aliexpress.ae
+0.0.0.0 aliexpress.co.uk
+0.0.0.0 www.aliexpress.co.uk
+0.0.0.0 aliexpress.fr
+0.0.0.0 www.aliexpress.fr
+0.0.0.0 aliexpress.es
+0.0.0.0 www.aliexpress.es
+0.0.0.0 aliexpress.ru
+0.0.0.0 www.aliexpress.ru
+0.0.0.0 aliexpress.us
+0.0.0.0 www.aliexpress.us
+
+# Block Alibaba/AliExpress Tracking & Static Assets (Optional but recommended)
+0.0.0.0 aeis.alicdn.com
+0.0.0.0 assets.alicdn.com
 0.0.0.0 sitenable.co
 0.0.0.0 sitenable.pw
 0.0.0.0 sitenable.info
