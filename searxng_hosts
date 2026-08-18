@@ -1,6 +1,5 @@
 # Auto-generated SearXNG Instances Blocklist
 0.0.0.0 baresearch.org
-0.0.0.0 copp.gg
 0.0.0.0 etsi.me
 0.0.0.0 failsearx.culturanerd.it
 0.0.0.0 find.xenorio.xyz
@@ -25,7 +24,6 @@
 0.0.0.0 search.im-in.space
 0.0.0.0 search.indst.eu
 0.0.0.0 search.inetol.net
-0.0.0.0 search.internetsucks.net
 0.0.0.0 search.jns.net.ar
 0.0.0.0 search.liuzj.net
 0.0.0.0 search.lumy.live
@@ -36,18 +34,14 @@
 0.0.0.0 search.pi.vps.pw
 0.0.0.0 search.privacyredirect.com
 0.0.0.0 search.rhscz.eu
-0.0.0.0 search.root.hr
 0.0.0.0 search.rowie.at
-0.0.0.0 search.sapti.me
 0.0.0.0 search.seddens.net
 0.0.0.0 search.serpensin.com
 0.0.0.0 search.undertale.uk
 0.0.0.0 search.unredacted.org
-0.0.0.0 search.wdpserver.com
 0.0.0.0 search.yuri.llc
 0.0.0.0 search.zina.dev
 0.0.0.0 searx.ankha.ac
-0.0.0.0 searx.drayko.xyz
 0.0.0.0 searx.dresden.network
 0.0.0.0 searx.linxx.net
 0.0.0.0 searx.mbuf.net
@@ -79,7 +73,6 @@
 0.0.0.0 searxng.tr
 0.0.0.0 searxng.website
 0.0.0.0 searxng.wuemeli.com
-0.0.0.0 seek.fyi
 0.0.0.0 sx.catgirl.cloud
 0.0.0.0 sx.h4rl3y.xyz
 0.0.0.0 www.gruble.de
