@@ -1,4 +1,5 @@
 # Auto-generated SearXNG Instances Blocklist
+0.0.0.0 anonsearch.win
 0.0.0.0 baresearch.org
 0.0.0.0 etsi.me
 0.0.0.0 failsearx.culturanerd.it
@@ -37,6 +38,7 @@
 0.0.0.0 search.rowie.at
 0.0.0.0 search.seddens.net
 0.0.0.0 search.serpensin.com
+0.0.0.0 search.spiralab.org
 0.0.0.0 search.undertale.uk
 0.0.0.0 search.unredacted.org
 0.0.0.0 search.yuri.llc
@@ -75,5 +77,6 @@
 0.0.0.0 searxng.wuemeli.com
 0.0.0.0 sx.catgirl.cloud
 0.0.0.0 sx.h4rl3y.xyz
+0.0.0.0 sx.xo.st
 0.0.0.0 www.gruble.de
 0.0.0.0 xka.cz
