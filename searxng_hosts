@@ -1,7 +1,6 @@
 # Auto-generated SearXNG Instances Blocklist
 0.0.0.0 anonsearch.win
 0.0.0.0 baresearch.org
-0.0.0.0 etsi.me
 0.0.0.0 failsearx.culturanerd.it
 0.0.0.0 find.xenorio.xyz
 0.0.0.0 grep.vim.wtf
@@ -28,8 +27,6 @@
 0.0.0.0 search.jeremyh.xyz
 0.0.0.0 search.liuzj.net
 0.0.0.0 search.lumy.live
-0.0.0.0 search.mdosch.de
-0.0.0.0 search.mectov.my.id
 0.0.0.0 search.minus27315.dev
 0.0.0.0 search.mizuki.st
 0.0.0.0 search.pereira.is
@@ -54,7 +51,6 @@
 0.0.0.0 searx.oloke.xyz
 0.0.0.0 searx.ononoki.org
 0.0.0.0 searx.party
-0.0.0.0 searx.perennialte.ch
 0.0.0.0 searx.redgarden.cv
 0.0.0.0 searx.rhscz.eu
 0.0.0.0 searx.ro
@@ -68,7 +64,6 @@
 0.0.0.0 searxng.deggo.fyi
 0.0.0.0 searxng.eshnetwork.space
 0.0.0.0 searxng.gdebest.net
-0.0.0.0 searxng.gr
 0.0.0.0 searxng.jaydenha.uk
 0.0.0.0 searxng.moonshadow.dev
 0.0.0.0 searxng.paralaxitaentomology.org
